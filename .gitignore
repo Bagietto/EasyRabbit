@@ -1,0 +1,71 @@
+﻿# ------------------------------
+# Build outputs
+# ------------------------------
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+
+# Rider / ReSharper caches
+_ReSharper*/
+*.DotSettings.user
+
+# ------------------------------
+# Test outputs and coverage
+# ------------------------------
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage-results/
+
+# ------------------------------
+# NuGet packages
+# ------------------------------
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+
+# ------------------------------
+# IDE / Editor settings
+# ------------------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio generated files
+*.VC.db
+*.VC.VC.opendb
+
+# ------------------------------
+# OS / file explorer
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Logs and temp files
+# ------------------------------
+*.log
+*.tmp
+*.temp
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Generated docs / local outputs
+# ------------------------------
+*.cache
