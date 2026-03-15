@@ -24,8 +24,10 @@ Start here:
 3. [Configuration Guide](doc/configuration-guide.md)
 4. [Runtime API Guide](doc/runtime-api.md)
 5. [Operations Guide](doc/operations-guide.md)
-6. [Architecture](doc/architecture.md)
-7. [Dependencies](doc/dependencies.md)
+6. [Practical Scenarios and Business Value](doc/practical-scenarios.md)
+7. [Architecture](doc/architecture.md)
+8. [Dependencies](doc/dependencies.md)
+
 
 ## Minimal setup snippet
 
@@ -39,3 +41,5 @@ builder.Services.AddEasyRabbitMQHostedConsumers();
 ```xml
 <ProjectReference Include="..\\..\\src\\EasyRabbitMQ\\EasyRabbitMQ.csproj" />
 ```
+
+
